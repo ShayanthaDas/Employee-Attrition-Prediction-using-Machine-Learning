@@ -1,0 +1,2 @@
+# Employee-Attrition-Prediction-using-Machine-Learning
+This project builds a machine learning model to predict employee attrition using HR analytics data. The goal is to identify employees who are likely to leave the organization based on demographic and job-related features.  This is an end-to-end ML project including data preprocessing, model training, evaluation, and feature importance analysis.
