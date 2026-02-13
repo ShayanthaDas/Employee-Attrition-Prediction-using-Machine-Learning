@@ -1,4 +1,4 @@
-Employee Attrition Prediction using Machine Learning
+📌 Employee Attrition Prediction using Machine Learning
 🔍 Project Overview
 
 This project builds a machine learning model to predict employee attrition using HR analytics data. The goal is to identify employees who are likely to leave the organization based on demographic and job-related features.
@@ -78,3 +78,22 @@ Salary and years of experience significantly influence attrition.
 Certain departments show higher turnover trends.
 
 Lower experience employees are more likely to leave.
+
+🚀 How to Run
+pip install -r requirements.txt
+python employee_attrition_model.py
+
+
+Or open the Jupyter notebook.
+
+📌 Business Value
+
+This model helps HR departments:
+
+Reduce employee turnover
+
+Improve retention strategies
+
+Identify high-risk employees early
+
+Make data-driven workforce decisions
