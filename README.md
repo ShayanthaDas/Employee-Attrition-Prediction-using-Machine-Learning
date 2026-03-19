@@ -1,53 +1,46 @@
-Employee-Attrition-Prediction-using-Machine-Learning
-1. 🎯 Business Problem
+# 📊 Employee Attrition Prediction Using Machine Learning
 
-Employee attrition is a major concern for organizations, resulting in high recruitment and training costs, the loss of experienced talent, and disruptions to business operations. Companies often struggle to identify which employees are at risk of leaving.
+## 1. 🎯 Business Problem
+High employee attrition increases recruitment costs, disrupts productivity, and risks losing experienced staff. Organizations often lack early warning to prevent key employees from leaving.
 
-2. 🎯 Objective
+## 2. 🎯 Objective
+Predict which employees are likely to leave and identify key factors influencing attrition, enabling proactive HR interventions.
 
-Use employee data to predict attrition, identify key factors contributing to employee turnover, and provide actionable insights to improve retention strategies.
+## 3. 🛠 Tools & Technologies
+- Python (Pandas, Scikit-learn, Matplotlib, Seaborn)  
+- Excel  
+- SQL  
+- Power BI / Tableau
 
-3. 🛠 Tools & Technologies
+## 4. 📖 Approach / Storytelling
+- Cleaned and preprocessed HR data (missing values, encoding, scaling).  
+- Conducted EDA to identify trends and relationships.  
+- Trained machine learning models to predict attrition.  
+- Analyzed feature importance to identify key factors affecting employee turnover.
 
-Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
+## 5. 📊 Key Insights
+- High workload and low job satisfaction increase attrition risk.  
+- Departments and roles significantly influence turnover.  
+- Work-life balance and career development are critical retention factors.  
+- Tenure and salary growth impact employee retention.  
+- Engagement initiatives reduce attrition.
 
-SQL (if used for employee data extraction)
+## 6. 🧠 Business Recommendations
+- Implement targeted retention programs for high-risk employees.  
+- Improve job satisfaction and career growth opportunities.  
+- Balance workloads across teams.  
+- Introduce structured employee engagement initiatives.  
 
-Excel (for initial data exploration)
+## 7. 📈 Impact
+Helps HR proactively reduce attrition, retain top talent, and improve workforce stability.
 
-4. 📖 Approach / Storytelling
+## 8. 📊 Dashboard / Visuals
+<img width="539" height="455" alt="image" src="https://github.com/user-attachments/assets/9aa63b24-e57c-4524-80c8-361d59cd885b" />
+<img width="567" height="455" alt="image" src="https://github.com/user-attachments/assets/b45217f4-6f59-4817-b746-c80985f12806" />
 
-The analysis started with data cleaning and preprocessing to handle missing values and ensure consistency. Exploratory Data Analysis (EDA) was conducted to examine patterns in employee demographics, performance, satisfaction, and other factors. Feature selection techniques were applied to identify the most influential variables for attrition. Machine Learning models, including Random Forest and Logistic Regression, were trained to predict employee attrition. Model performance was evaluated using accuracy, precision, recall, and F1-score. Finally, insights were extracted to guide HR decisions.
-
-5. 📊 Key Insights
-
-Job satisfaction, workload, and work-life balance strongly influence attrition
-
-Employees in certain departments are more likely to leave
-
-Training and career development opportunities reduce attrition risk
-
-Compensation alone does not fully prevent attrition
-
-High-performing employees at risk should be prioritized for retention initiatives
-
-6. 🧠 Business Recommendations
-
-Implement targeted retention programs for high-risk employees
-
-Focus on career development and engagement initiatives
-
-Adjust workload distribution and team management strategies
-
-Monitor attrition trends regularly using predictive models
-
-Use insights to reduce recruitment and training costs
-
-7. 📈 Impact
-
-Predictive insights help HR teams proactively reduce attrition, retain top talent, improve employee satisfaction, and decrease costs associated with turnover.
-
-8. 📁 Project Structure
-/data           → Employee datasets  
-/notebooks      → Python ML scripts  
-/images         → Charts & visualizations  
+## 📁 Project Structure
+/data → Raw & cleaned datasets  
+/notebooks → Python scripts  
+/dashboard → Power BI / Tableau files  
+/images → Visualizations  
+/sql → Queries
